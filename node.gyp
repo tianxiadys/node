@@ -115,6 +115,7 @@
       'src/node_env_var.cc',
       'src/node_errors.cc',
       'src/node_external_reference.cc',
+      'src/node_ffi.cc',
       'src/node_file.cc',
       'src/node_http_parser.cc',
       'src/node_http2.cc',
