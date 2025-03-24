@@ -438,11 +438,11 @@
     }, {
       'defines': [ 'HAVE_AMARO=0' ]
     }],
-    [ 'node_use_libffi=="true"', {
-      'defines': ['HAVE_LIBFFI=1'],
+    [ 'node_enable_ffi=="true"', {
+      'defines': ['NODE_ENABLE_FFI=1'],
       'dependencies': ['./deps/libffi/libffi.gyp:libffi'],
     }, {
-      'defines': ['HAVE_LIBFFI=0'],
+      'defines': ['NODE_ENABLE_FFI=0'],
     }],
   ],
 }
