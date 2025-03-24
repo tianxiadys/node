@@ -438,5 +438,11 @@
     }, {
       'defines': [ 'HAVE_AMARO=0' ]
     }],
+    [ 'node_use_libffi=="true"', {
+      'defines': ['HAVE_LIBFFI=1'],
+      'dependencies': ['./deps/libffi/libffi.gyp:libffi'],
+    }, {
+      'defines': ['HAVE_LIBFFI=0'],
+    }],
   ],
 }
