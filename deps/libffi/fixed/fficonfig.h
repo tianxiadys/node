@@ -1,12 +1,11 @@
 /*
-* This file is written by Node.js,
+ * This file is written by Node.js,
  * and the original code of the libffi library does not include this file.
  */
 #ifndef LIBFFI_FIXED_CONFIG_H
 #define LIBFFI_FIXED_CONFIG_H
 
 #define EH_FRAME_FLAGS "a"
-#define FFI_NO_RAW_API 1
 #define FFI_STATIC_BUILD 1
 #define HAVE_AS_X86_PCREL 1
 #define NO_JAVA_RAW_API 1

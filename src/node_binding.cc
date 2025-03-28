@@ -49,6 +49,7 @@
   V(credentials)                                                               \
   V(encoding_binding)                                                          \
   V(errors)                                                                    \
+  V(ffi)                                                                       \
   V(fs)                                                                        \
   V(fs_dir)                                                                    \
   V(fs_event_wrap)                                                             \
